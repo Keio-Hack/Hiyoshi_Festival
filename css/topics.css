@@ -1,5 +1,13 @@
 @media screen and (min-width: 1000px){
-	.clear_title{
+	/*.choosen{
+		opacity: 0.2;
+	}
+*/
+
+body{
+
+}
+.clear_title{
 		width: 99%;
 		margin: 50px 0.5% 0 0.5%;
 		height: 50px;
@@ -26,13 +34,13 @@
 	    transition:all .2s;
 	    /*box-shadow: rgba(100,100,100,.5)-5px 5px 5px 0px;*/
 	}
-	
+
 	.topics:before{
 		content:"";
 	    display: block;
 	    padding-top: 50%;
 	}
-	
+
 	.topics .inner{
 		height: calc(100% - 10px);
 		width: calc(100% - 10px);
@@ -124,7 +132,7 @@
 
 	.staff{
 		position: relative;
-	    width: 50%;
+	    width: 25%;
 	    float: left;
 	    transition:all .2s;
 	}
@@ -194,13 +202,13 @@
 	    transition:all .2s;
 	    /*box-shadow: rgba(100,100,100,.5)-5px 5px 5px 0px;*/
 	}
-	
+
 	.topics:before{
 		content:"";
 	    display: block;
 	    padding-top: 50%;
 	}
-	
+
 	.topics .inner{
 		height: calc(100% - 10px);
 		width: calc(100% - 10px);
@@ -237,12 +245,12 @@
 	}
 
 	.topics:nth-child(7) img{
-		
+
 		border-left: solid 5px #CC0000;
 	}
 
 	.topics:nth-child(8) img{
-		
+
 		border-right: solid 5px #CC0000;
 	}
 	.topics:nth-child(9) img{
