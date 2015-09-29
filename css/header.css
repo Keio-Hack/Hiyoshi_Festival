@@ -16,6 +16,14 @@ header{
 		float: left;
 	}
 
+	#header_left span:first-child{
+		color: #7777cc;
+	}
+
+	#header_left span:nth-child(2){
+		color:#ff7777;
+	}
+
 	header p {
 		height: 50px;
 		line-height: 50px;
@@ -32,7 +40,7 @@ header{
 		height: 100%;
 		padding: 0 15px;
 		line-height: 50px;
-		font-size: 20px; 
+		font-size: 20px;
 		color: #ccc;
 		transition:all .2s;
 	}

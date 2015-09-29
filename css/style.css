@@ -9,11 +9,11 @@ body{
 	background-size:100% 100%;
 }*/
 *{
-	
+
 }
 
 a p{
-	color: black;
+	/*color: black;*/
 	text-decoration: none;
 	font-weight: 900;
 }
@@ -22,19 +22,14 @@ a{
 	text-decoration:none;
 }
 
+
 a:hover{
-	text-decoration:underline;
-	color:rgba(0,0,0,.8);
+	/*text-decoration:underline;*/
+
+	/*color:rgba(0,0,0,.8);*/
 }
 
 ::selection{
 	background-color: rgba(0,0,0,0);
 }
 /*______________________________________________*/
-
-
-
-
-
-
-

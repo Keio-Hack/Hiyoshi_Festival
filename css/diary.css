@@ -4,7 +4,7 @@
 		height: 100%;
 		width: 100%;
 		position: fixed;
-		background: url(img/IMGP1298.JPG);
+		background: url(../img/IMGP1298.JPG);
 		background-size:cover;
 		z-index: -100;
 		top: 0;
@@ -39,7 +39,7 @@
 
 
 
-	
+
 	#diary_main .explain{
 		height: 480px;
 		width: 800px;
@@ -54,12 +54,12 @@
 	#diary_main .explain p:nth-child(3){
 		margin:1em 0 0 0;
 	}
-	
+
 	#diary_main img{
 		height:640px;
 		width: 800px;
 		margin: 50px 100px;
-	}	
+	}
 
 
 	/*あsdfghjkl*/
@@ -91,7 +91,7 @@
 
 
 
-	
+
 	.diary_main .inner_main{
 		height: 480px;
 		width: 800px;
@@ -106,12 +106,12 @@
 	.diary_main .inner_main p:nth-child(3){
 		margin:1em 0 0 0;
 	}
-	
+
 	.diary_main img{
 		height:640px;
 		width: 800px;
 		margin: 50px 100px;
-	}	
+	}
 
 
 }

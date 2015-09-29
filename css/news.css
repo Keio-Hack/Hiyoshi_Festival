@@ -5,20 +5,24 @@
 	    width: calc(100% / 3);
 	    float: left;
 	}
-	
+
 	#count_down:before{
 		content:"";
 	    display: block;
 	    padding-top: 100%;
 	}
-	
+
 	#count_down .inner{
-		height: calc(100% - 10px);
-		width: calc(100% - 10px);
+		height: calc(100% - 3px);
+		width: calc(100% - 3px);
 		position: absolute;
-		top:5px;
-		left:5px;
+		top:3px;
+		left:3px;
 		background-color: #ddd;
+		border-radius: 3px;
+		background: url(../img/count_down.png);
+		-webkit-background-size: cover;
+		background-size: cover;
 	}
 
 	#count_down img{
@@ -42,28 +46,30 @@
 	    width: calc(100% / 3 * 2);
 	    float: left;
 	}
-	
+
 	#news:before{
 		content:"";
 	    display: block;
 	    padding-top: 50%;
 	}
-	
+
 	#news .inner{
-		height: calc(100% - 10px);
-		width: calc(100% - 10px);
+		height: calc(100% - 3px);
+		width: calc(100% - 3px);
 		position: absolute;
-		top:5px;
-		left:5px;
+		top:3px;
+		left:3px;
 		background-color: rgba(220,220,220,.9);
 		overflow-x:scroll;
-		border: 1px solid rgba(100,100,100,.5);
-		box-sizing: border-box;
+		border-radius: 3px;
+		/*border: 2px solid rgba(100,100,100,.5);*/
+		/*box-sizing: border-box;*/
 	}
 
 	#news_title{
 		height: 35px;
 		width: 100%;
+		background-color: #ddd;
 		box-shadow: rgba(100,100,100,.5)0 0 15px;
 	}
 
@@ -82,7 +88,7 @@
 	.new{
 		width: 100%;
 		padding:5px 0 ;
-		border-top: 1px solid rgba(100,100,100,.3); 
+		border-top: 1px solid rgba(100,100,100,.3);
 		/*border-bottom:1px ridge rgba(100,100,100,.3);*/
 	}
 
@@ -109,13 +115,13 @@
 	    width: 100%;
 	    float: left;
 	}
-	
+
 	#count_down:before{
 		content:"";
 	    display: block;
 	    padding-top: 100%;
 	}
-	
+
 	#count_down .inner{
 		height: calc(100% - 10px);
 		width: calc(100% - 10px);
@@ -147,13 +153,13 @@
 	    width: 	100%;
 	    float: left;
 	}
-	
+
 	#news:before{
 		content:"";
 	    display: block;
 	    padding-top: 75%;
 	}
-	
+
 	#news .inner{
 		height: calc(100% - 10px);
 		width: calc(100% - 10px);
@@ -187,7 +193,7 @@
 	.new{
 		width: 100%;
 		padding:5px 0 ;
-		border-top: 1px solid rgba(100,100,100,.3); 
+		border-top: 1px solid rgba(100,100,100,.3);
 		/*border-bottom:1px ridge rgba(100,100,100,.3);*/
 	}
 

@@ -1,15 +1,9 @@
 @media screen and (min-width: 1000px){
-	/*.choosen{
-		opacity: 0.2;
-	}
-*/
 
-body{
 
-}
 .clear_title{
-		width: 99%;
-		margin: 50px 0.5% 0 0.5%;
+		width: 997px;
+		margin: 50px 3px 0 3px;
 		height: 50px;
 		float: left;
 		background-color: rgba(50,50,50,.8);
@@ -29,10 +23,10 @@ body{
 
 	.topics{
 		position: relative;
-	    width: calc(100% / 3);
+	    width: 25%;
 	    float: left;
 	    transition:all .2s;
-	    /*box-shadow: rgba(100,100,100,.5)-5px 5px 5px 0px;*/
+		box-sizing: border-box;
 	}
 
 	.topics:before{
@@ -42,97 +36,48 @@ body{
 	}
 
 	.topics .inner{
-		height: calc(100% - 10px);
-		width: calc(100% - 10px);
+		height: calc(100% - 3px);
+		width: calc(100% - 3px);
 		position: absolute;
-		top:5px;
-		left:5px;
-		/*background-color: #ddd;*/
+		top:3px;
+		left:3px;
+		border-radius: 3px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		box-sizing:border-box;
+		border:solid 1px rgba(50,50,50,.8);
+		transition: border .2s ;
 	}
 
-	.topics img{
-		height: 100%;
-		width: 100%;
-		border: 1px solid rgba(100,100,100,.5);
-		box-sizing: border-box;
-		transition:all .2s;
+	.topics .inner:hover{
+		border:solid 5px rgba(100,100,100,.7);
+	}
+
+	.top1{
+		background: url(../img/to_everyone.png);
+	}
+
+	.top2{
+		background: url(../img/access.png);
+	}
+
+	.top3{
+		background: url(../img/time_schedule.png);
+	}
+
+	.top4{
+		background: url(../img/map.png);
 	}
 
 
 	.topics:hover{
-		/*opacity: .7;*/
-		transform:scale(1.03,1.03);
-		-webkit-transform:scale(1.03,1.03);
+		transform:scale(1.01,1.01);
+		-webkit-transform:scale(1.01,1.01);
 	}
-
-	.topics:nth-child(5) img{
-		border-radius: 15px 0 0 0;
-		border-top: solid 5px #000055;
-		border-left: solid 5px #000055;
-	}
-
-	.topics:nth-child(5):hover img{
-		background-color: #8888CC;
-	}
-
-
-	.topics:nth-child(6) img{
-		border-top: solid 5px #CC0000;
-	}
-
-	.topics:nth-child(6):hover img{
-		background-color: #CC0000;
-	}
-
-
-	.topics:nth-child(7) img{
-		border-radius: 0 15px 0 0;
-		border-top: solid 5px #000055;
-		border-right: solid 5px #000055;
-	}
-
-	.topics:nth-child(7):hover img{
-		background-color: #8888CC;
-	}
-
-
-	.topics:nth-child(8) img{
-		border-radius: 0 0 0 15px;
-		border-bottom: solid 5px #000055;
-		border-left: solid 5px #000055;
-	}
-
-	.topics:nth-child(8):hover img{
-		background-color: #8888CC;
-	}
-
-	.topics:nth-child(9) img{
-		/*border-radius: 5px 0 0 0;*/
-		border-bottom: solid 5px #CC0000;
-	}
-
-	.topics:nth-child(9):hover img{
-		background-color: #CC0000;
-	}
-
-
-	.topics:nth-child(10) img{
-		border-radius: 0 0 15px 0;
-		border-bottom: solid 5px #000055;
-		border-right: solid 5px #000055;
-	}
-
-	.topics:nth-child(10):hover img{
-		background-color: #8888CC;
-	}
-
-
-
-
 
 	.staff{
 		position: relative;
-	    width: 25%;
+	    width: 50%;
 	    float: left;
 	    transition:all .2s;
 	}
@@ -140,15 +85,28 @@ body{
 	.staff:after{
 		content:"";
 	    display: block;
-	    padding-top: 33.3%;
+	    padding-top: 30%;
 	}
 
 	.staff .inner{
-		height: calc(100% - 10px);
-		width: calc(100% - 10px);
+		height: calc(100% - 3px);
+		width: calc(100% - 3px);
 		position: absolute;
-		top:5px;
-		left:5px;
+		top:3px;
+		left:3px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		border-radius: 3px;
+		box-sizing: border-box;
+		border:solid 1px rgba(50,50,50,.8);
+	}
+
+	.sta1{
+		background: url(../img/diary.png);
+	}
+
+	.sta2{
+		background: url(../img/part_introduction.png);
 	}
 
 	.staff img{
@@ -270,7 +228,7 @@ body{
 
 	.staff{
 		position: relative;
-	    width: 50%;
+	    width: 100px;
 	    float: left;
 	    transition:all .2s;
 	}
@@ -287,14 +245,11 @@ body{
 		position: absolute;
 		top:5px;
 		left:5px;
+		transition: all .2s;
 	}
 
-	.staff img{
-		height: 100%;
-		width: 100%;
-		border: 2px solid rgba(100,100,100,.5);
-		box-sizing: border-box;
-		border-radius: 5px;
+	.staff .inner:hover{
+		border:solid 5px rgba(100,100,100,.7);
 	}
 
 

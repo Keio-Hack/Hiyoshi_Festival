@@ -1,5 +1,9 @@
 @media screen and (min-width: 1000px){
 
+	iframe{
+
+	}
+
 	#access_main{
 		width: 1000px;
 		height: 1200px;
@@ -28,7 +32,7 @@
 
 
 
-	
+
 	#access_main .explain{
 		height: 480px;
 		width: 800px;
@@ -43,12 +47,13 @@
 	#access_main .explain p:nth-child(3){
 		margin:1em 0 0 0;
 	}
-	
-	#access_main img{
+
+	#access_main iframe{
 		height:640px;
 		width: 800px;
 		margin: 50px 100px;
-	}	
+		box-shadow: rgba(100,100,100,.6) 0 0 10px 0;
+	}
 
 }
 

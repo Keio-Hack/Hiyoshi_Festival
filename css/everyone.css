@@ -4,7 +4,7 @@
 		height: 100%;
 		width: 100%;
 		position: fixed;
-		background: url(img/IMGP1298.JPG);
+		background: url(../img/IMGP1298.JPG);
 		background-size:cover;
 		z-index: -100;
 		top: 0;
@@ -13,13 +13,14 @@
 
 	#everyone_main{
 		width: 1000px;
-		height: 1200px;
-		background-color: rgba(200,200,200,.9);
+		height: 300px;
+		background-color: rgba(200,200,200,.95);
 		margin: 50px auto;
+		border-radius: 3px;
 	}
 
 	#everyone_main p{
-		height: 40px;
+		/*height: 40px;*/
 		width: 100%;
 		line-height: 40px;
 		font-size: 25px;
@@ -35,11 +36,9 @@
 		text-indent: 1em;
 		box-shadow: rgba(100,100,100,.5) 0 0 10px;
 		background-color: #fff;
+		border-radius:3px 3px 0 0;
 	}
 
-
-
-	
 	#everyone_main .explain{
 		height: 480px;
 		width: 800px;
@@ -54,12 +53,32 @@
 	#everyone_main .explain p:nth-child(3){
 		margin:1em 0 0 0;
 	}
-	
+
 	#everyone_main img{
 		height:640px;
 		width: 800px;
 		margin: 50px 100px;
-	}	
+	}
+
+	.sub .topics .inner{
+		background-size: 100% 100%;
+	}
+
+	.sub .top1{
+		background: url(../img/to_everyone.png);
+	}
+
+	.sub .top2{
+		background: url(../img/access.png);
+	}
+
+	.sub.top3{
+		background: url(../img/time_schedule.png);
+	}
+
+	.sub .top4{
+		background: url(../img/map.png);
+	}
 
 }
 
