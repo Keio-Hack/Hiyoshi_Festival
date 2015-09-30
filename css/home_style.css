@@ -48,7 +48,7 @@
 	}
 
 	#main_content{
-		height: 600px;
+		height:auto;
 		width: 1000px;
 		margin: 0 auto;
 	}

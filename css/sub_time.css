@@ -1,6 +1,6 @@
 .sub{
     height: 0;
-    width: calc((100% - 1000px) / 2 - 20px);
+    width: 250px;
     position: fixed;
     top:100px;
     left: 0px;
@@ -9,7 +9,7 @@
 
 .sub .topics{
     position: fixed;
-    left:-290px;
+    left:-240px;
     /*background-color: #fff;*/
 }
 
@@ -117,22 +117,22 @@
 }
 
 .sub:hover > #sub_title{
-    width: 300px;
+    width: 250px;
     border-radius: 3px 3px 0 0 ;
 }
 
-.sub > .topics:nth-child(2):hover > .inner{
+.sub > .topics:nth-child(2):hover > a > .inner{
     border:solid 5px #000055;
 }
 
-.sub > .topics:nth-child(3):hover > .inner{
+.sub > .topics:nth-child(3):hover > a > .inner{
     border:solid 5px #cc0000;
 }
 
-.sub > .topics:nth-child(4):hover > .inner{
+.sub > .topics:nth-child(4):hover > a > .inner{
     border:solid 5px #000055;
 }
 
-.sub > .topics:nth-child(5):hover > .inner{
+.sub > .topics:nth-child(5):hover > a > .inner{
     border:solid 5px #cc0000;
 }

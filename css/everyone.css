@@ -13,7 +13,7 @@
 
 	#everyone_main{
 		width: 1000px;
-		height: 300px;
+		height: 200px;
 		background-color: rgba(200,200,200,.95);
 		margin: 50px auto;
 		border-radius: 3px;
@@ -23,7 +23,7 @@
 		/*height: 40px;*/
 		width: 100%;
 		line-height: 40px;
-		font-size: 25px;
+		font-size: 20px;
 		text-align: left;
 		text-indent: 1em;
 	}
@@ -40,10 +40,11 @@
 	}
 
 	#everyone_main .explain{
-		height: 480px;
-		width: 800px;
+		height: auto;
+		width: 900px;
 		float: left;
-		margin: 0 100px;
+		margin: 0 50px;
+		font-size: 20px;
 	}
 
 	#everyone_main .explain p:nth-child(2){
@@ -58,6 +59,37 @@
 		height:640px;
 		width: 800px;
 		margin: 50px 100px;
+	}
+
+	.article{
+		width: 1000px;
+		height: auto;
+		margin: 50px auto 0 auto;
+		background-color: rgba(200,200,200,.95);
+		border-radius:3px;
+		text-indent: 1em;
+	}
+
+	.article .art_title,
+	.article .art_title p{
+		height: 35px;
+		line-height: 35px;
+		font-size: 25px;
+		border-radius:3px 3px 0 0;
+	}
+
+	.article .art_title{
+		background-color: #fff;
+		box-shadow: rgba(100,100,100,.7) 0 0 10px;
+	}
+
+	.article .main p{
+		width: 900px;
+		line-height: 35px;
+		font-size: 20px;
+		word-break: normal;
+		padding:  20px 0;
+		margin: 0 50px;
 	}
 
 	.sub .topics .inner{
