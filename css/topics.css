@@ -80,8 +80,13 @@
 	    width: 50%;
 	    float: left;
 	    transition:all .2s;
-		margin-bottom:50px; 
+		margin-bottom:50px;
+		display: none;
 	}
+
+	/*.clear_title:-child{*/
+		/*display: none;*/
+	/*}*/
 
 	.staff:after{
 		content:"";
