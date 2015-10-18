@@ -1,0 +1,91 @@
+@media screen and (min-width: 1000px) {
+  body,
+  html {
+    width: 100%; }
+
+  main {
+    width: 100%;
+    height: auto;
+    margin: 100px 0; }
+    main #main_content {
+      width: 1020px;
+      height: auto;
+      margin: 0 auto; }
+    main #title {
+      width: 1020px;
+      height: 150px; }
+      main #title .inner {
+        height: 146px;
+        width: 1016px;
+        margin: 2px;
+        background: url(../../img/hiyosi_title.png);
+        background-size: cover;
+        border-radius: 3px; }
+        main #title .inner img {
+          display: none; }
+
+  #back {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: url(../../img/main_back.jpg);
+    background-size: cover;
+    z-index: -100;
+    top: 0;
+    left: 0; }
+
+  #back_access {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: url(../../img/access_back.jpg);
+    background-size: cover;
+    z-index: -100;
+    top: 0;
+    left: 0; } }
+@media screen and (max-width: 999px) {
+  body,
+  html {
+    width: 100%; }
+
+  main {
+    width: 100%;
+    height: auto;
+    margin: 10px 0; }
+    main #main_content {
+      width: 97.5%;
+      height: auto;
+      margin: 1.25% auto; }
+    main #title {
+      width: 100%;
+      height: auto; }
+      main #title .inner {
+        height: 146px;
+        width: calc(100% - 4px);
+        margin: 2px;
+        border-radius: 3px; }
+        main #title .inner img {
+          width: 100%;
+          height: auto; }
+
+  #back {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: url(../../img/main_back.jpg);
+    background-size: cover;
+    z-index: -100;
+    top: 0;
+    left: 0; }
+
+  #back_access {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: url(../../img/access_back.jpg);
+    background-size: cover;
+    z-index: -100;
+    top: 0;
+    left: 0; } }
+
+/*# sourceMappingURL=main.css.map */

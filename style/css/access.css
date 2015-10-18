@@ -1,0 +1,86 @@
+@media screen and (min-width: 1000px) {
+  #access_main {
+    width: 1000px;
+    height: 1200px;
+    background-color: rgba(200, 200, 200, 0.9);
+    margin: 50px auto; }
+    #access_main p {
+      height: 40px;
+      width: 100%;
+      line-height: 40px;
+      font-size: 20px;
+      text-align: left;
+      text-indent: 1em; }
+    #access_main #access_title {
+      height: 40px;
+      line-height: 40px;
+      font-size: 25px;
+      text-align: left;
+      text-indent: 1em;
+      box-shadow: rgba(100, 100, 100, 0.5) 0 0 10px;
+      background-color: #fff; }
+    #access_main .explain {
+      height: 480px;
+      width: 800px;
+      float: left;
+      margin: 0 100px; }
+    #access_main #access_title {
+      height: 40px;
+      line-height: 40px;
+      font-size: 25px;
+      text-align: left;
+      text-indent: 1em;
+      box-shadow: rgba(100, 100, 100, 0.5) 0 0 10px;
+      background-color: #fff; }
+    #access_main .explain p:nth-child(2),
+    #access_main .explain p:nth-child(3) {
+      margin: 1em 0 0 0; }
+    #access_main iframe {
+      height: 640px;
+      width: 800px;
+      margin: 50px 100px;
+      box-shadow: rgba(100, 100, 100, 0.6) 0 0 10px 0; } }
+@media screen and (max-width: 999px) {
+  #access_main {
+    width: 100%;
+    height: 900px;
+    background-color: rgba(200, 200, 200, 0.9);
+    margin: 50px auto; }
+    #access_main p {
+      width: 100%;
+      line-height: 20px;
+      font-size: 12px;
+      text-align: left;
+      text-indent: 1em; }
+    #access_main #access_title {
+      height: 40px;
+      line-height: 40px;
+      font-size: 25px;
+      text-align: left;
+      text-indent: 1em;
+      box-shadow: rgba(100, 100, 100, 0.5) 0 0 10px;
+      background-color: #fff; }
+    #access_main .explain {
+      height: 480px;
+      width: 95%;
+      float: left;
+      margin: 0 2.5%; }
+    #access_main #access_title {
+      height: 40px;
+      line-height: 40px;
+      font-size: 25px;
+      text-align: left;
+      text-indent: 1em;
+      box-shadow: rgba(100, 100, 100, 0.5) 0 0 10px;
+      background-color: #fff; }
+    #access_main .explain p:nth-child(2),
+    #access_main .explain p:nth-child(3) {
+      margin: 1em 0 0 0; }
+    #access_main iframe {
+      height: auto;
+      min-height: 200px;
+      width: 95%;
+      margin: 50px 2.5%;
+      box-shadow: rgba(100, 100, 100, 0.6) 0 0 10px 0; } }
+
+/*# sourceMappingURL=access.css.map */

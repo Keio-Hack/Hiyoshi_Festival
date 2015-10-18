@@ -1,0 +1,183 @@
+@media screen and (min-width: 1000px){
+
+#count_down{
+    width: 340px;
+    height: 340px;
+    float: left;
+
+        .inner{
+            width: 336px;
+            height: 336px;
+            margin: 2px;
+            background: url(../../img/count_down.png);
+            background-size: cover;
+            border-radius: 3px;
+
+
+                p{
+                    line-height:330px;
+                    text-align: center;
+                    font-size: 150px;
+                    // display: none;
+                }
+
+                img{
+                    display: none;
+                }
+        }
+}
+
+#news{
+    width: 680px;
+    height: 340px;
+    float: left;
+
+        .inner{
+            width: 676px;
+            height:336px;
+            margin: 2px;
+            background-color: #ddd;
+            border-radius: 3px;
+
+                #news_title{
+                    height: 35px;
+		            width: 100%;
+		            background-color: #ddd;
+	            	box-shadow: rgba(100,100,100,.5)0 2px 4px 0;
+                    border-radius: 3px 3px 0 0 ;
+
+                        p{
+                            line-height: 35px;
+		                    font-size: 25px;
+		                    text-indent: 1em;
+
+                        }
+                }
+
+                #news_outer{
+	            	margin: 5px 0;
+		            width: 100%;
+
+                        .new{
+                            width: 100%;
+                            padding: 5px 0;
+                            border-bottom: 1px solid rgba(100,100,100,.3);
+
+                                &:first-child{
+                                    // border:none;
+                                }
+
+                                .date{
+                                    p{
+                                        text-indent: 1em;
+                                        margin: 0 0 5px 0;
+                                    }
+                                }
+
+                                .main{
+                                    p{
+                                        text-indent: 1em;
+                                        width: calc(100% - 1em);
+                                        margin: 0 0 10px 1em;
+                                    }
+                                }
+                        }
+            	}
+        }
+}
+
+}
+@media screen and (max-width: 999px){
+    #count_down{
+        width: 100%;
+        height: auto;
+        float: left;
+        display: none;
+
+            .inner{
+                width: calc(100% - 2px);
+                height: auto;
+                margin: 2px;
+                // background: url(../../img/count_down.png);
+                background-size: cover;
+                border-radius: 3px;
+                position: relative;
+
+
+                    p{
+                        line-height:200px;
+                        text-align: center;
+                        font-size: 150px;
+                        position: relative;
+                        top:calc(50% - 100px);
+                    }
+
+                    img{
+                        position: relative;
+                        top:0;
+                        left: 0;
+                        width: 100%;
+                        height: auto;
+                        z-index: -100;
+                        border-radius: 3px;
+                    }
+            }
+    }
+
+    #news{
+        width: 100%;
+        height: 340px;
+        float: left;
+
+            .inner{
+                width: 100%;
+                height:336px;
+                margin: 2px;
+                background-color: #ddd;
+                border-radius: 3px;
+
+                    #news_title{
+                        height: 35px;
+    		            width: 100%;
+    		            background-color: #ddd;
+    	            	box-shadow: rgba(100,100,100,.5)0 2px 4px 0;
+                        border-radius: 3px 3px 0 0 ;
+
+                            p{
+                                line-height: 35px;
+    		                    font-size: 25px;
+    		                    text-indent: 1em;
+
+                            }
+                    }
+
+                    #news_outer{
+    	            	margin: 5px 0;
+    		            width: 100%;
+
+                            .new{
+                                width: 100%;
+                                padding: 5px 0;
+
+                                    &:first-child{
+                                        border:none;
+                                    }
+
+                                    .date{
+                                        p{
+                                            text-indent: 2em;
+
+                                        }
+                                    }
+
+                                    .main{
+                                        p{
+                                            text-indent: 1em;
+                                            color: #555;
+                                        }
+                                    }
+                            }
+                	}
+            }
+    }
+}

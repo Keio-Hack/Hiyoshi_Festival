@@ -10,13 +10,16 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<!-- <link rel="stylesheet" href="/fonts.googleapis.com/earlyaccess/notosansjapanese.css"> -->
 
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/home_style.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/news.css">
-	<link rel="stylesheet" href="css/topics.css">
-	<scriptsrc="js/main.js"></script>
+	<link rel="stylesheet" href="style/css/reset.css">
+	<link rel="stylesheet" href="style/css/header.css">
+	 <!-- <link rel="stylesheet" href="css/home_style.css"> -->
+	<link rel="stylesheet" href="style/css/main.css">
+	<link rel="stylesheet" href="style/css/news.css">
+	<link rel="stylesheet" href="style/css/topic.css">
+
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+	<!-- <script src="js/main.js"></script> -->
 </head>
 <body>
 
@@ -27,13 +30,13 @@
 		</div>
 		<div id="header_right">
 			<ul>
-				<a href="everyone.html">
+				<a href="other_html/everyone.html">
 					<li>ご来場の皆様へ</li>
 				</a>
-				<a href="access.html">
+				<a href="other_html/access.html">
 					<li>交通アクセス</li>
 				</a>
-				<a href="time_table.html">
+				<a href="other_html/timetable.html">
 					<li>タイムスケジュール</li>
 				</a>
 			</ul>
@@ -52,13 +55,16 @@
 <!-- タイトル -->
 
 			<div id="title">
-				<div class="inner"></div>
+				<div class="inner">
+					<img src="img/hiyosi_title.png" alt="">
+				</div>
 			</div>
 
 <!-- カウントダウン -->
 			<div id="count_down">
 				<div class="inner">
 					<p></p>
+					<img src="img/count_down.png" alt="">
 				</div>
 			</div>
 
@@ -72,12 +78,34 @@
 					<div id="news_outer">
 						<div class="new">
 							<div class="date">
+								<p>10/19(月)　生徒会主催学校説明会について</p>
+							</div>
+							<div class="main">
+								<p>生徒会が主催する学校説明会については
+								<a href="other_html/explain.html">こちら</a></p>
+							</div>
+						</div>
+						<div class="new">
+							<div class="date">
+								<p>10/17(土)　活動の報告開始！</p>
+							</div>
+							<div class="main">
+								<p>実行委員の日々の記録をみなさまにご紹介する「
+									<a href="other_html/diary.html">活動報告</a>」の掲載を始めました。
+								日吉祭だけではわからない実行委員の活動をご覧ください</p>
+							</div>
+						</div>
+						<div class="new">
+							<div class="date">
 								<p>10/2(土)　日吉祭HP開設！</p>
 							</div>
 							<div class="main">
 								<p>日吉祭のホームページを開設いたしました。日吉祭の情報をみなさまにお届けします！</p>
 							</div>
 						</div>
+
+
+
 					</div>
 				</div>
 			</div>
@@ -86,38 +114,46 @@
 				<p>トピックス</p>
 			</div>
 <!-- トピック１ -->
-			<div class="topics">
-				<a href="everyone.html">
+			<div class="topics eve">
+				<a href="other_html/everyone.html">
 					<div class="inner top1"></div>
 				</a>
 			</div>
 <!-- トピック２ -->
-			<div class="topics">
-				<a href="access.html">
+			<div class="topics acc">
+				<a href="other_html/access.html">
 					<div class="inner top2"></div>
 				</a>
 			</div>
 <!-- トピック３ -->
-			<div class="topics">
-				<a href="time_table.html">
+			<div class="topics tab">
+				<a href="other_html/timetable.html">
 					<div class="inner top3"></div>
 				</a>
 			</div>
 
 <!-- トピック４ -->
-			<div class="topics">
-				<a href="map.html">
+			<div class="topics map">
+				<a href="other_html/map.html">
 					<div class="inner top4"></div>
 				</a>
 			</div>
 
-			<!-- <div class="clear_title">
+
+			<div class="clear_title">
 				<p>日吉祭実行委員</p>
-			</div> -->
+			</div>
+
+
+			<div class="topics dia">
+				<a href="other_html/diary.html">
+					<div class="inner top5"></div>
+				</a>
+			</div>
 
 <!-- 日実1 -->
 
-			<div class="staff">
+			<!-- <div class="staff">
 				<a href="diary.html">
 					<div class="inner sta1"></div>
 				</a>
@@ -129,7 +165,7 @@
 				</a>
 			</div>
 
-		</div>
+		</div> -->
 
 	</main>
 
